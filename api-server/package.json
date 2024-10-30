@@ -1,0 +1,20 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SubhamShaww/code-auto-deploy-pipeline-system/api-server"
+  },
+  "author": "Subham Shaw",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.682.0",
+    "express": "^4.21.1",
+    "random-word-slugs": "^0.1.7"
+  }
+}
